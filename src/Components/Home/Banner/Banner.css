@@ -1,0 +1,38 @@
+.banner {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        animation: animate 9s ease-in-out infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/* For Slider */
+
+@keyframes animate {
+        0%, 100% {
+                background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img.freepik.com/free-photo/tourist-making-photo-nature_1150-7742.jpg?size=626&ext=jpg&uid=R64903934&ga=GA1.2.270866342.1647831681');
+        }
+        40% {
+                background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.mia-online.org/wp-content/uploads/2019/12/images3359-5df990568df23-1024x789.jpg');
+        }
+        75% {
+                background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/cover-for-50-Amazing-Travel-Experiences-Around-The-World.jpg');
+        }
+}
+
+.banner h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+}
+
+.banner h2 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+}
